@@ -1,3 +1,5 @@
+import steamlit
+streamlit.title("My Parents New Healthy Dinner")
 import snowflake.connector
 
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
